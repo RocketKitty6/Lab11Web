@@ -15,117 +15,101 @@ Kelas : TI.20.B.2
 
 ### Instal Codeigniter 4 simpan pada htdocs dan Buka http://localhost/lab11_php_ci/ci4/public/ , hasilnya :
 
-![ss 1](img/ss2-1.png)
-
-![ss 1](img/ss2-2.png)
+![image](https://user-images.githubusercontent.com/101440705/177772156-4aaa6b7f-3cbc-4f60-89b1-108bf90bdd3c.png)
 
 ### Buka cmd pada XAMPP Shell lalu buka php spark, untuk menjalankan server ketik "php spark serve" :
 
-![ss 1](img/ss3-1.png)
+![image](https://user-images.githubusercontent.com/101440705/177773157-a3172f14-de75-4213-99bc-e56e0f8579b7.png)
 
 Hasil error/kesalahan
 
-![ss 1](img/ss3-2.png)
+![image](https://user-images.githubusercontent.com/101440705/177773240-5dd17831-0e33-486c-893f-c24024267ae8.png)
 
 ### Mengaktifkan mode Debugging dengan mengubah file .env menjadi = development, seperti berikut :
 
-![ss 1](img/ss3-3.png)
+![image](https://user-images.githubusercontent.com/101440705/177773282-392e3f35-b7bc-40cc-a683-454e5d4813c8.png)
 
 ### Untuk mencoba Error hilangkan tanda ; (titik koma) pada Home.php, seperti berikut :
 
-![ss 1](img/ss4-1.png)
+![image](https://user-images.githubusercontent.com/101440705/177773319-2787b0c3-e2c9-4eed-8414-e188c0cffd96.png)
 
 Contoh error/kesalahan akan ditampilkan secara detail
 
-![ss 1](img/ss4-2.png)
+![image](https://user-images.githubusercontent.com/101440705/177773099-c6820112-b7f3-4b9f-9a4f-ac26e7c0a537.png)
 
 ### Mengarahkan router pada controller, kemudian Membuat Route Baru Tambahkan kode berikut pada Route.php :
 
-![ss 1](img/ss5-1.png)
+![image](https://user-images.githubusercontent.com/101440705/177773550-3857f51b-f272-4286-9bba-84546cf03413.png)
 
 ### Cek pada CMD dengan memasukan "php spark routes", Akses route yang telah dibuat dengan http://localhost:8080/about, hasilnya :
 
-![ss 1](img/ss5-2.png)
-
-![ss 1](img/ss5-3.png)
+![image](https://user-images.githubusercontent.com/101440705/177773817-0c12dbfe-9b26-4a05-a538-67e8126c673b.png)
 
 ### Membuat Controller Page, dengan membuat file baru bernama page.php seperti berikut :
 
-![ss 1](img/ss6-1.png)
-
-Hasilnya :
-
-![ss 1](img/ss6-2.png)
+![image](https://user-images.githubusercontent.com/101440705/177774404-e54f8575-9308-48c2-aa0a-fb88587b2580.png)
 
 ### Mengaktifkan AutoRouting dengan men set nilai true/false, jika true maka fungsi akan aktif
 
-![ss 1](img/ss7-1.png)
+![image](https://user-images.githubusercontent.com/101440705/177774513-d2596dac-853d-4a12-b2fb-d46fff21a832.png)
 
 ### Tambahkan method baru pada Controller Page seperti berikut untuk page Term of Services
 
-![ss 1](img/ss7-2.png)
-
-Akses http://localhost:8080/page/tos hasilnya :
-
-![ss 1](img/ss7-3.png)
+![image](https://user-images.githubusercontent.com/101440705/177774633-347d4208-c7fc-48e7-80b7-9ea9c2ed17e0.png)
 
 ### Membuat View, dengan membuat file baru bernama about.php dan masukan kode berikut :
 
-![ss 1](img/ss8-1.png)
+![image](https://user-images.githubusercontent.com/101440705/177775281-fe4899eb-73ab-4564-8f42-df3c3512f738.png)
 
 Ubah method about pada class Controller Page menjadi seperti berikut:
 
-![ss 1](img/ss8-2.png)
-
-Selanjutnya refresh Kembali browser
-
-![ss 1](img/ss8-3.png)
+![image](https://user-images.githubusercontent.com/101440705/177775356-eafa661d-8dd2-470e-81fc-5d1b652dbf4d.png)
 
 ### Membuat Layout Web dengan CSS
 Buat file css pada direktori public dengan nama style.css
 
-![ss 1](img/ss9-4.png)
+![image](https://user-images.githubusercontent.com/101440705/177775506-855960d9-acfb-4884-ab83-eafa404cf36a.png)
 
 Kemudian buat folder template pada direktori view kemudian buat file header.php dan footer.php
 
 `header.php`
 
-![ss 1](img/ss9-1.png)
+![image](https://user-images.githubusercontent.com/101440705/177775774-48cc544b-fecf-476c-8940-d573fcf44149.png)
 
 `footer.php`
 
-![ss 1](img/ss9-2.png)
+![image](https://user-images.githubusercontent.com/101440705/177775832-047de56e-b8ae-4e21-b0d1-38ba0d114e83.png)
 
 Kemudian ubah file app/view/about.php seperti berikut
 
-![ss 1](img/ss9-3.png)
+![image](https://user-images.githubusercontent.com/101440705/177776008-75c1d125-ed79-4e25-b1ba-c1192f07bf34.png)
 
 Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
-![ss 1](img/ss9-5.png)
+![image](https://user-images.githubusercontent.com/101440705/177776096-01e8f033-d97c-4d7d-aab3-d2fb4d7aca94.png)
 
 ## Pertanyaan dan Tugas
 Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
 
 Tambahkan kode berikut di dalam Routes.php
 
-![ss 1](img/ss10-1.png)
+![image](https://user-images.githubusercontent.com/101440705/177776256-7309aa15-c318-4723-bd18-c5162b91dbb3.png)
 
 edit page control pada page.php
 
-![ss 1](img/ss10-2.png)
+![image](https://user-images.githubusercontent.com/101440705/177776649-0b174964-0bc6-4420-ab93-faf3b9371c75.png)
 
 Buat file artikel.php dan contact.php pada direktori app/view/.....
 
-![ss 1](img/ss10-3.png)
+![image](https://user-images.githubusercontent.com/101440705/177776927-308eb1d0-4d04-473a-9c65-4a273138437b.png)
 
-![ss 1](img/ss10-4.png)
+![image](https://user-images.githubusercontent.com/101440705/177777122-b599d472-ded9-4615-bc62-2c551269348e.png)
 
 saat kita membuka halaman artikel dan kontak maka tampilan akan menuju page artikel dan kontak
 
-![ss 1](img/ss10-5.png)
+![image](https://user-images.githubusercontent.com/101440705/177777282-e29ef130-7e54-437c-85fd-078ea8d47223.png)
 
-![ss 1](img/ss10-6.png)
+![image](https://user-images.githubusercontent.com/101440705/177777330-6d0a56b9-9ecc-42db-927d-e20caa9a38e1.png)
 
 ================================================================================================================================================
 ## Praktikum 12: Framework Lanjutan (CRUD)
