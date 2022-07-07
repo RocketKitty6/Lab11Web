@@ -116,23 +116,23 @@ saat kita membuka halaman artikel dan kontak maka tampilan akan menuju page arti
 
 ### Jalankan MySQL pada program XAMPP berjalan dan buat database seperti berikut :
 
-![ss 1](img/ss11-1.PNG)
+![image](https://user-images.githubusercontent.com/101440705/177778656-5e86abae-b9b0-46d3-a7ef-d9e28f30b1ee.png)
 
 ### Mengkonfigurasi koneksi database pada file .env seperti berikut :
 
-![ss 1](img/ss11-2.PNG)
+![image](https://user-images.githubusercontent.com/101440705/177786417-cb2df428-f25f-49cd-a112-eb1fd043899d.png)
 
 ### Membuat file Model pada direktori app/Models dengan nama ArtikelModel.php seperti berikut :
 
-![ss 1](img/ss11-3.PNG)
+![image](https://user-images.githubusercontent.com/101440705/177785185-436e7c30-9e74-402f-b30f-923f043ab28f.png)
 
 ### Membuat file Controller baru dengan nama Artikel.php pada direktori app/Controllers. seperti berikut :
 
-![ss 1](img/ss11-4.PNG)
+![image](https://user-images.githubusercontent.com/101440705/177785753-899ab914-3645-48af-b366-1a9e82bd2c4f.png)
 
 ### Membuat file Views baru dengan nama artikel pada direktori app/views, kemudian buat filebaru dengan nama index.php, seperti berikut 
 
-![ss 1](img/ss12-1.PNG)
+![image](https://user-images.githubusercontent.com/101440705/177785970-ca8d652b-fe39-4fcd-8ada-95471693fcc2.png)
 
 Jalankan server dan akses link : http://localhost:8080/artikel
 
